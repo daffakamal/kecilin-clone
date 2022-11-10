@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import LandingPage from '../components/Home/landingpage'
 
 export default function Home() {
   return (
@@ -6,6 +7,7 @@ export default function Home() {
       <Head>
         <title>Kecilin</title>
       </Head>
+      <LandingPage />
     </>
   )
 }
