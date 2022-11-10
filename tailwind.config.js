@@ -6,7 +6,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        PoppinsLight: ["PoppinsLight"],
+        PoppinsRegular: ["PoppinsRegular"],
+        PoppinsMedium: ["PoppinsMedium"],
+        PoppinsSemi: ["PoppinsSemi"],
+        PoppinsBold: ["PoppinsBold"],
+      },
+    },
   },
   plugins: [],
 }
