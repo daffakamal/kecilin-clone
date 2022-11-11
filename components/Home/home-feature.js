@@ -28,7 +28,7 @@ export default function HomeFeature() {
                             Your only 360 solutions for compression and cloud management business
                         </p>
                         <p className="font-PoppinsLight text-[14px] text-[#616161] pt-6 pb-2">
-                            Kecilin is the first and the only Indonesia's cloud and compression technology provider. making it possible for every business to experience small-is-better solutions for your everyday needs.
+                            Kecilin is the first and the only {"Indonesia's"} cloud and compression technology provider. making it possible for every business to experience small-is-better solutions for your everyday needs.
                         </p>
                         <div className="border-[#00BCEB] border-2 max-w-[91px] "></div>
                     </div>
