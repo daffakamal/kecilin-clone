@@ -7,14 +7,14 @@ import KecilinLogo from "../../assets/Images/kecilin-logo.svg";
 
 function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
-    const styleTextNav="font-PoppinsRegular text-xs sm:text-base lg:text-sm xl:text-base cursor-pointer text-black hover:text-green px-3 py-2"
+    const styleTextNav="font-PoppinsRegular lg:text-sm xl:text-base cursor-pointer text-black hover:text-green px-3 py-2"
 	
 	return (
 		<div>
-			<nav className="w-full bg-white pt-2 xl:pt-0 px-7 sm:px-16 lg:px-28 xl:px-52 2xl:px-80 z-50">
+			<nav className="w-full bg-white lg:pt-1 lg:pb-1 px-7 sm:px-16 lg:px-28 xl:px-52 2xl:px-80 z-50">
 				<div className="w-full xl:container xl:mx-auto">
 					<div className="w-full flex items-center h-16 xl:h-20">
-						<div className="w-full flex items-center justify-between">
+						<div className="w-full flex items-center justify-between lg:justify-start gap-x-14">
 							<div className="flex justify-center items-center">
 								<Link href="/">
 									<Image
@@ -53,14 +53,14 @@ function Navbar() {
                                         English
 									</a>
 								</div>
-							</div>
-							<div className="hidden lg:flex justify-center items-center space-x-5">
-                                <button className="font-PoppinsMedium uppercase px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-xs cursor-pointer">
-                                    <a href="#!">
-                                        Compress now
-                                    </a>
-                                </button>
-							</div>
+							</div>	
+						</div>
+                        <div className="hidden lg:flex min-w-fit justify-center items-center">
+                            <button className="font-PoppinsMedium uppercase px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-xs cursor-pointer">
+                                <a href="#!">
+                                    Compress now
+                                </a>
+                            </button>
 						</div>
 						<div className="flex lg:hidden">
 							<button
@@ -116,35 +116,56 @@ function Navbar() {
 					leaveFrom="opacity-100 scale-100"
 					leaveTo="opacity-0 scale-95"
 				>
-						<div className="lg:hidden" id="mobile-menu">
-							<div className="grid grid-cols-4">
-								<div className="col-end-5 col-span-3 sm:col-span-2">
-									<div
-										className="grid pt-2 pb-3 space-y-5 text-right font-eudoxusMedium text-base cursor-pointer text-black hover:text-green py-2"
-									>
-										<a href="#!">
-                                            Product and Service
-										</a>
-										<a href="#!">
-                                            About Kecilin
-										</a>
-										<a href="#!">
-                                            Enterprise
-										</a>
-										<a href="#!">
-                                            English
-										</a>
-                                        <div className="flex lg:hidden justify-end">
-                                            <button className="font-PoppinsMedium uppercase px-6 py-3 text-white bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-xs cursor-pointer">
-                                                <a href="#!">
-                                                    Compress now
-                                                </a>
-                                            </button>
-                                        </div>
-									</div>
-								</div>
+                    <div className="block sm:hidden" id="mobile-menu">
+						<div className="w-full grid">
+							<div className="grid justify-items-end pt-2 pb-3 space-y-5 font-PoppinsRegular text-right text-sm cursor-pointer text-black hover:text-cyan-600 py-2">
+								<a href="#!" className="flex items-center">
+                                    Product and Service
+								</a>
+								<a href="#!" className="flex self-center items-center">
+                                    About Kecilin
+								</a>
+								<a href="#!" className="flex self-center items-center">
+                                    Enterprise
+								</a>
+								<a href="#!" className="flex self-center items-center">
+                                    English
+							    </a>
 							</div>
+                            <div className="flex lg:hidden justify-end py-3">
+                                <button className="font-PoppinsMedium uppercase px-6 py-3 text-white bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-xs cursor-pointer">
+                                    <a href="#!">
+                                        Compress now
+                                    </a>
+                                </button>
+                            </div>
 						</div>
+					</div>
+					<div className="hidden sm:block lg:hidden" id="mobile-menu">
+						<div className="w-full grid content-center">
+							<div className="flex items-center self-center gap-x-14 pl-9 pt-2 pb-3 space-y-5 font-PoppinsRegular text-sm cursor-pointer text-black hover:text-cyan-600 py-2">
+								<a href="#!" className="flex items-center">
+                                    Product and Service
+								</a>
+								<a href="#!" className="flex self-auto items-center">
+                                    About Kecilin
+								</a>
+								<a href="#!" className="flex self-center items-center">
+                                    Enterprise
+								</a>
+								<a href="#!" className="flex self-center items-center">
+                                    English
+							    </a>
+							</div>
+                            <div className="flex lg:hidden justify-end py-3">
+                                <button className="font-PoppinsMedium uppercase px-6 py-3 text-white bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-xs cursor-pointer">
+                                    <a href="#!">
+                                        Compress now
+                                    </a>
+                                </button>
+                            </div>
+						</div>
+					</div>
 				</Transition>
 			</nav>
 		</div>
