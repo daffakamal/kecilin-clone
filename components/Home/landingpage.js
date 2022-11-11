@@ -8,11 +8,11 @@ export default function LandingPage() {
                 <div className="relative overflow-hidden">
                     <img 
                         src={HeroImg.src}
-                        className="w-full pointer-events-none brightness-90 bg-cover bg-no-repeat"
+                        className="w-full pointer-events-none bg-cover bg-no-repeat"
                         alt="Elephant toy with grey background color"
                     />
                     <div className="w-full h-full absolute top-0 right-0 bottom-0 left-0 overflow-hidden bg-fixed">
-                        <div className="h-full flex justify-start items-center px-[24px] sm:px-16 lg:px-32 xl:px-36 2xl:px-[192px] py-[149px]">
+                        <div className="h-full flex justify-start items-center px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 py-[149px]">
                             <div className="xl:container xl:mx-auto text-white space-y-2 xl:space-y-5">
                                 <h1 className="font-PoppinsSemi text-[30px] md:text-[40px] lg:text-[50px] xl:text-[66px]">
                                     Small and Better
