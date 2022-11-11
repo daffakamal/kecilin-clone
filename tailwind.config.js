@@ -13,6 +13,7 @@ module.exports = {
         PoppinsMedium: ["PoppinsMedium"],
         PoppinsSemi: ["PoppinsSemi"],
         PoppinsBold: ["PoppinsBold"],
+        PoppinsSemiItalic: ["PoppinsSemiItalic"]
       },
     },
   },
