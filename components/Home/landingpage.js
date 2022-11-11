@@ -1,14 +1,18 @@
+import Image from "next/image";
 
 import HeroImg from "../../assets/Images/Home/hero-slide-1.png";
 
 export default function LandingPage() {
     return (
         <div className="w-full h-full bg-white">
-            <div className="w-full pt-16 pb-32">
+            <div className="w-full pb-32">
                 <div className="relative overflow-hidden">
-                    <img 
+                    <Image
                         src={HeroImg.src}
                         className="w-full pointer-events-none bg-cover bg-no-repeat"
+                        width={1567}
+                        height={644}
+                        priority
                         alt="Elephant toy with grey background color"
                     />
                     <div className="w-full h-full absolute top-0 right-0 bottom-0 left-0 overflow-hidden bg-fixed">
@@ -20,7 +24,7 @@ export default function LandingPage() {
                                 <h2 className="font-PoppinsRegular text-[16px] md:text-[20px] lg:text-[25px] xl:text-[28px] pb-3 lg:pb-1">
                                     This is how we save your business
                                 </h2>
-                                <button className="font-PoppinsMedium uppercase px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 rounded-full text-[14px] cursor-pointer">
+                                <button className="font-PoppinsMedium uppercase px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-[14px] cursor-pointer">
                                     <a href="#!">
                                         Compress now
                                     </a>
