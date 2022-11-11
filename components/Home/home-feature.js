@@ -14,7 +14,7 @@ export default function HomeFeature() {
                         width={550}
                         height={364}
                         priority
-                        alt="Two people on working together"
+                        alt="Two people working together"
                     />
                     <div className="grid pt-8 xs:pt-0">
                         <h2 className="font-PoppinsSemi text-[28px] xs:text-[40px] text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-900">
