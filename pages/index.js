@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import HomeComparison from '../components/Home/home-comparison'
 import HomeData from '../components/Home/home-data'
 import HomeFeature from '../components/Home/home-feature'
 import HomeStory from '../components/Home/home-story'
@@ -20,6 +21,7 @@ export default function Home() {
       <HomeStory />
       <HomeFeature />
       <HomeData />
+      <HomeComparison />
     </>
   )
 }
