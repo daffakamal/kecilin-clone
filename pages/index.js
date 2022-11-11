@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import HomeData from '../components/Home/home-data'
 import HomeFeature from '../components/Home/home-feature'
 import HomeStory from '../components/Home/home-story'
 import LandingPage from '../components/Home/landingpage'
@@ -18,6 +19,7 @@ export default function Home() {
       <LandingPage />
       <HomeStory />
       <HomeFeature />
+      <HomeData />
     </>
   )
 }
