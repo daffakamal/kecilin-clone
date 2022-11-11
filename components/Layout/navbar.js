@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Transition } from "@headlessui/react";
+import { Menu, Transition } from '@headlessui/react';
+import { Fragment } from 'react';
 
 import KecilinLogo from "../../assets/Images/kecilin-logo.svg";
 
@@ -28,12 +29,67 @@ function Navbar() {
 							</div>
 							<div className="hidden lg:flex justify-start">
 								<div className="flex space-x-2 lg:space-x-6 2xl:space-x-11">
-									<a 
-                                        className={styleTextNav}
-                                        href="#!"
+                                    <Menu 
+                                        as="div" 
+                                        className="relative inline-block text-left"
                                     >
-                                        Product and Service
-									</a>
+                                        <Menu.Button className={styleTextNav}>
+                                            Product and Service
+                                        </Menu.Button>
+                                        <Transition
+                                            as={Fragment}
+                                            enter="transition ease-out duration-100"
+                                            enterFrom="transform opacity-0 scale-95"
+                                            enterTo="transform opacity-100 scale-100"
+                                            leave="transition ease-in duration-75"
+                                            leaveFrom="transform opacity-100 scale-100"
+                                            leaveTo="transform opacity-0 scale-95"
+                                        >
+                                            <Menu.Items className="absolute left-5 mt-2 w-40 font-PoppinsRegular origin-top-right rounded bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-40">
+                                                <div className="px-1 py-3">
+                                                    <Menu.Item>
+                                                        {({ active }) => (
+                                                            <Link href="#!">
+                                                                <button
+                                                                    className={`${
+                                                                    active ? 'bg-gray-100 text-black lg:text-sm xl:text-sm' : 'bg-white text-gray-900 lg:text-sm xl:text-sm'
+                                                                    } group flex w-full items-center rounded-md px-4 py-2`}
+                                                                >
+                                                                    Kecilin VPN
+                                                                </button>
+                                                            </Link>
+                                                        )}
+                                                    </Menu.Item>
+                                                    <Menu.Item>
+                                                        {({ active }) => (
+                                                        <Link href="#!">
+                                                            <button
+                                                                className={`${
+                                                                active ? 'bg-gray-100 text-black lg:text-sm xl:text-sm' : 'bg-white text-gray-900 lg:text-sm xl:text-sm'
+                                                                } group flex w-full items-center rounded-md px-4 py-2`}
+                                                            >
+                                                                Kecilin Kloud
+                                                            </button>
+                                                        </Link>
+                                                        )}
+                                                    </Menu.Item>
+                                                    <Menu.Item>
+                                                        {({ active }) => (
+                                                            <Link href="#!">
+                                                                <button
+                                                                    className={`${
+                                                                    active ? 'bg-gray-100 text-black lg:text-sm xl:text-sm' : 'bg-white text-gray-900 lg:text-sm xl:text-sm'
+                                                                    } group flex w-full items-center rounded-md px-4 py-2`}
+                                                                >
+                                                                    Kecilin CCTV
+                                                                </button>
+                                                            </Link>
+                                                        )}
+                                                    </Menu.Item>
+                                                </div>
+                                            </Menu.Items>
+                                        </Transition>
+                                    </Menu>
 									<a 
                                         className={styleTextNav}
                                         href="#!"
@@ -46,12 +102,54 @@ function Navbar() {
                                     >
                                         Enterprise
 									</a>
-									<a 
-                                        className={styleTextNav}
-                                        href="#!"
+									<Menu 
+                                        as="div" 
+                                        className="relative inline-block text-left"
                                     >
-                                        English
-									</a>
+                                        <Menu.Button className={styleTextNav}>
+                                            English
+                                        </Menu.Button>
+                                        <Transition
+                                            as={Fragment}
+                                            enter="transition ease-out duration-100"
+                                            enterFrom="transform opacity-0 scale-95"
+                                            enterTo="transform opacity-100 scale-100"
+                                            leave="transition ease-in duration-75"
+                                            leaveFrom="transform opacity-100 scale-100"
+                                            leaveTo="transform opacity-0 scale-95"
+                                        >
+                                            <Menu.Items className="absolute left-5 mt-2 w-40 font-PoppinsRegular origin-top-right rounded bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-40">
+                                                <div className="px-1 py-3">
+                                                    <Menu.Item>
+                                                        {({ active }) => (
+                                                            <Link href="#!">
+                                                                <button
+                                                                    className={`${
+                                                                    active ? 'bg-gray-100 text-black lg:text-sm xl:text-sm' : 'bg-white text-gray-900 lg:text-sm xl:text-sm'
+                                                                    } group flex w-full items-center rounded-md px-4 py-2`}
+                                                                >
+                                                                    Indonesia
+                                                                </button>
+                                                            </Link>
+                                                        )}
+                                                    </Menu.Item>
+                                                    <Menu.Item>
+                                                        {({ active }) => (
+                                                            <Link href="#!">
+                                                                <button
+                                                                    className={`${
+                                                                    active ? 'bg-gray-100 text-black lg:text-sm xl:text-sm' : 'bg-white text-gray-900 lg:text-sm xl:text-sm'
+                                                                    } group flex w-full items-center rounded-md px-4 py-2`}
+                                                                >
+                                                                    English
+                                                                </button>
+                                                            </Link>
+                                                        )}
+                                                    </Menu.Item>
+                                                </div>
+                                            </Menu.Items>
+                                        </Transition>
+                                    </Menu>
 								</div>
 							</div>	
 						</div>
