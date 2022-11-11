@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Menu, Transition } from '@headlessui/react';
 import { Fragment } from 'react';
+import { ChevronDownIcon } from '@heroicons/react/24/solid';
 
 import KecilinLogo from "../../assets/Images/kecilin-logo.svg";
 
@@ -33,9 +34,12 @@ function Navbar() {
                                         as="div" 
                                         className="relative inline-block text-left"
                                     >
-                                        <Menu.Button className={styleTextNav}>
-                                            Product and Service
-                                        </Menu.Button>
+                                        <div className="flex items-center text-black hover:text-cyan-600">
+                                            <Menu.Button className={styleTextNav}>
+                                                Product and Service
+                                            </Menu.Button>
+                                            <ChevronDownIcon className="w-4" />
+                                        </div>
                                         <Transition
                                             as={Fragment}
                                             enter="transition ease-out duration-100"
@@ -106,9 +110,12 @@ function Navbar() {
                                         as="div" 
                                         className="relative inline-block text-left"
                                     >
-                                        <Menu.Button className={styleTextNav}>
-                                            English
-                                        </Menu.Button>
+                                        <div className="flex items-center text-black hover:text-cyan-600">
+                                            <Menu.Button className={styleTextNav}>
+                                                English
+                                            </Menu.Button>
+                                            <ChevronDownIcon className="w-4" />
+                                        </div>
                                         <Transition
                                             as={Fragment}
                                             enter="transition ease-out duration-100"
