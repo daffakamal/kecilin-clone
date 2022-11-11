@@ -28,6 +28,7 @@ export default function HomeData() {
                                         className="pointer-events-none"
                                         width={32}
                                         height={32}
+                                        loading="lazy"
                                         alt="Folder icon"
                                     />
                                 </div>
@@ -54,7 +55,8 @@ export default function HomeData() {
                                         className="pointer-events-none"
                                         width={32}
                                         height={32}
-                                        alt="Folder icon"
+                                        loading="lazy"
+                                        alt="Storage icon"
                                     />
                                 </div>
                                 <p className="font-PoppinsRegular text-[16px] text-[#333333] uppercase">

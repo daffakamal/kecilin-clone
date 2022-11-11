@@ -13,7 +13,7 @@ export default function HomeFeature() {
                         className="pointer-events-none"
                         width={550}
                         height={364}
-                        priority
+                        loading="lazy"
                         alt="Two people working together"
                     />
                     <div className="grid pt-8 xs:pt-0">
@@ -51,7 +51,7 @@ export default function HomeFeature() {
                         className="pointer-events-none"
                         width={550}
                         height={364}
-                        priority
+                        loading="lazy"
                         alt="People pointing on laptop"
                     />
                 </div>
