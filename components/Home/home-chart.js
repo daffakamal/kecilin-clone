@@ -8,7 +8,13 @@ export default function HomeChart() {
     return (
         <div className="w-full h-full bg-white">
             <div className="w-full grid gap-y-36 px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 py-20">
-                <div className="grid md:flex gap-x-3 xl:gap-x-16 items-start">
+                <div 
+                    className="grid md:flex gap-x-3 xl:gap-x-16 items-start"
+                    data-aos="fade-up" 
+                    data-aos-easing="ease"
+                    data-aos-duration="400"
+                    data-aos-delay="0"
+                >
                     <Image
                         src={ChartImg1.src}
                         className="pointer-events-none"
@@ -21,7 +27,13 @@ export default function HomeChart() {
                         Almost 90% of enterprises are have already adopted digital transformation, including financial services (93%)
                     </p>
                 </div>
-                <div className="grid md:flex gap-x-3 xl:gap-x-16 items-start">
+                <div 
+                    className="grid md:flex gap-x-3 xl:gap-x-16 items-start"
+                    data-aos="fade-up" 
+                    data-aos-easing="ease"
+                    data-aos-duration="400"
+                    data-aos-delay="0"
+                >
                     <div className="grid gap-y-12 pb-12 md:pb-0">
                         <p className="font-PoppinsRegular text-[16px] xs:text-[22px] text-[#383838] pt-8 xs:pt-12">
                             90% of all data today was created in the past 2 yrs. It is continuously growing up to 30% YoY.
@@ -41,7 +53,13 @@ export default function HomeChart() {
                         alt="Chart"
                     />
                 </div>
-                <div className="grid md:flex gap-x-3 xl:gap-x-16 items-start">
+                <div 
+                    className="grid md:flex gap-x-3 xl:gap-x-16 items-start"
+                    data-aos="fade-up" 
+                    data-aos-easing="ease"
+                    data-aos-duration="400"
+                    data-aos-delay="0"
+                >
                     <Image
                         src={ChartImg3.src}
                         className="pointer-events-none"

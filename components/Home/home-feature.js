@@ -7,7 +7,13 @@ export default function HomeFeature() {
     return (
         <div className="w-full h-full bg-white">
             <div className="w-full grid px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 pb-36">
-                <div className="grid xs:flex pt-52 pb-36 gap-x-3 xl:gap-x-16 items-center">
+                <div 
+                    className="grid xs:flex pt-52 pb-36 gap-x-3 xl:gap-x-16 items-center"
+                    data-aos="fade-up" 
+                    data-aos-easing="ease"
+                    data-aos-duration="400"
+                    data-aos-delay="0"
+                >
                     <Image
                         src={FeatureImg1.src}
                         className="pointer-events-none"
@@ -33,7 +39,13 @@ export default function HomeFeature() {
                         <div className="border-[#00BCEB] border-2 max-w-[91px] "></div>
                     </div>
                 </div>
-                <div className="grid xs:flex gap-x-3 xl:gap-x-16 items-center">
+                <div 
+                    className="grid xs:flex gap-x-3 xl:gap-x-16 items-center"
+                    data-aos="fade-up" 
+                    data-aos-easing="ease"
+                    data-aos-duration="400"
+                    data-aos-delay="0"
+                >
                     <div className="grid pb-8 xs:pb-0">
                         <h2 className="font-PoppinsSemi text-[32px] text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-900">
                             Kecilin Wants to Create an Equal Access to Digital Information
