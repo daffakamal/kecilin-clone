@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import HomeFeature from '../components/Home/home-feature'
 import HomeStory from '../components/Home/home-story'
 import LandingPage from '../components/Home/landingpage'
 import { Navbar } from '../components/Layout/navbar'
@@ -16,6 +17,7 @@ export default function Home() {
       <Navbar />
       <LandingPage />
       <HomeStory />
+      <HomeFeature />
     </>
   )
 }
