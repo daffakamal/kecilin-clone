@@ -7,7 +7,7 @@ import KecilinLogo from "../../assets/Images/kecilin-logo.svg";
 
 function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
-    const styleTextNav="font-PoppinsRegular lg:text-sm xl:text-base cursor-pointer text-black hover:text-green px-3 py-2"
+    const styleTextNav="font-PoppinsRegular lg:text-sm xl:text-sm cursor-pointer text-black hover:text-cyan-600 px-3 py-2"
 	
 	return (
 		<div>
