@@ -17,6 +17,7 @@ export default function HomeStory() {
                             className="w-full h-auto aspect-video -translate-x-2 z-40"
                             src="https://www.youtube.com/embed/fSBPHITgoGw?autoplay=1"
                             title="YouTube video player"
+                            loading="lazy"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
                         ></iframe>
