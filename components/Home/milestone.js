@@ -17,7 +17,7 @@ export default function Milestone() {
                         data-aos-delay="0"
                     >
                         <h1 className="w-full font-PoppinsSemi text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-900 text-[40px]">
-                            Let's Get to Know Kecilin!
+                            {"Let's"} Get to Know Kecilin!
                         </h1>
                         <p className="font-PoppinsLight text-[20px] text-[#6D6D6D]">
                             Kecilin was founded in 2018 with a mission to create equality in information access even with existing limited telecommunication data access, 
