@@ -5,6 +5,7 @@ import HomeData from '../components/Home/home-data'
 import HomeFeature from '../components/Home/home-feature'
 import HomeStory from '../components/Home/home-story'
 import LandingPage from '../components/Home/landingpage'
+import Milestone from '../components/Home/milestone'
 import { Navbar } from '../components/Layout/navbar'
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
       <HomeData />
       <HomeComparison />
       <HomeChart />
+      <Milestone />
     </>
   )
 }
