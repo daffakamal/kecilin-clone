@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import CompressFile from '../components/Home/compress-file'
 import HomeChart from '../components/Home/home-chart'
 import HomeComparison from '../components/Home/home-comparison'
 import HomeData from '../components/Home/home-data'
@@ -26,6 +27,7 @@ export default function Home() {
       <HomeComparison />
       <HomeChart />
       <Milestone />
+      <CompressFile />
     </>
   )
 }
