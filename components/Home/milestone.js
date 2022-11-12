@@ -21,7 +21,7 @@ export default function Milestone() {
                         </h1>
                         <p className="font-PoppinsLight text-[20px] text-[#6D6D6D]">
                             Kecilin was founded in 2018 with a mission to create equality in information access even with existing limited telecommunication data access, 
-                            we provide a compression technology that's smooth and efficient.
+                            we provide a compression technology {"that's"} smooth and efficient.
                         </p>
                     </div>
                     <h1 

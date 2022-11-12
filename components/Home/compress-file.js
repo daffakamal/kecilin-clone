@@ -18,11 +18,11 @@ export default function CompressFile() {
                             Compress File
                         </h1>
                         <p className="font-PoppinsRegular text-[14px] text-[#494949]">
-                            Let's compress your database, jpeg dan png without ads, watermark and any email registration. Max file size upload 200MB.
+                            {"Let's"} compress your database, jpeg dan png without ads, watermark and any email registration. Max file size upload 200MB.
                         </p>
                         <div className="rounded bg-[#F8F8F8] p-[15px] font-PoppinsLight text-[14px] text-[#494949] leading-[179.75%]">
                             <p>
-                                Don't worry, your files will not be stored on our servers, we guarantee the security of your files with a special encryption system that is on our system. Keep using our free compression feature to save your storage {":)"}
+                                {"Don't"} worry, your files will not be stored on our servers, we guarantee the security of your files with a special encryption system that is on our system. Keep using our free compression feature to save your storage {":)"}
                             </p>
                         </div>
                         <p className="text-left uppercase font-PoppinsSemi text-black text-[14px] ">
