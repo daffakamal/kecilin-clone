@@ -30,7 +30,7 @@ export default function CompressFile() {
                                         className="pointer-events-none"
                                         width={56}
                                         height={51}
-                                        priority
+                                        loading="lazy"
                                         alt="File icon"
                                     />
                                     <span className="font-PoppinsRegular text-[10px] text-[#494949]">
