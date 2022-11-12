@@ -6,7 +6,13 @@ export default function CompressFile() {
     return (
         <div className="w-full h-full bg-[#dcf1fc]">
             <div className="w-full px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 py-[80px] 2xl:container 2xl:mx-auto">
-                <div className="rounded-[24px] bg-white px-12 py-10">
+                <div 
+                    className="rounded-[24px] bg-white px-12 py-10"
+                    data-aos="fade-up" 
+                    data-aos-easing="ease"
+                    data-aos-duration="400"
+                    data-aos-delay="0"
+                >
                     <div className="grid text-center gap-y-8">
                         <h1 className="font-PoppinsSemi text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-900 text-[32px]">
                             Compress File

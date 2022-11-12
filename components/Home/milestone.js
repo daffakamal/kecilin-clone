@@ -9,7 +9,13 @@ export default function Milestone() {
         <div className="w-full h-full bg-gray-100">
             <div className="w-full px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 py-[110px] 2xl:container 2xl:mx-auto">
                 <div className="grid justify-items-start px-5 py-10">
-                    <div className="flex md:flex gap-x-6">
+                    <div 
+                        className="flex md:flex gap-x-6" 
+                        data-aos="fade-up" 
+                        data-aos-easing="ease"
+                        data-aos-duration="400"
+                        data-aos-delay="0"
+                    >
                         <h1 className="w-full font-PoppinsSemi text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-900 text-[40px]">
                             Let's Get to Know Kecilin!
                         </h1>
@@ -18,10 +24,22 @@ export default function Milestone() {
                             we provide a compression technology that's smooth and efficient.
                         </p>
                     </div>
-                    <h1 className="font-PoppinsSemi text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-900 text-[32px] pt-20 pb-6">
+                    <h1 
+                        className="font-PoppinsSemi text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-900 text-[32px] pt-20 pb-6"
+                        data-aos="fade-up" 
+                        data-aos-easing="ease"
+                        data-aos-duration="400"
+                        data-aos-delay="0"
+                    >
                         Kecilin Milestone
                     </h1>
-                    <div className="w-full flex flex-wrap md:flex-nowrap justify-between flex-rows">
+                    <div 
+                        className="w-full flex flex-wrap md:flex-nowrap justify-between flex-rows"
+                        data-aos="fade-up" 
+                        data-aos-easing="ease"
+                        data-aos-duration="400"
+                        data-aos-delay="0"
+                    >
                         <div className="flex flex-col w-full ">
                             <div className="flex items-center gap-x-6">
                                 <Image
