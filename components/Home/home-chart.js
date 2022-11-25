@@ -17,7 +17,7 @@ export default function HomeChart() {
                 >
                     <Image
                         src={ChartImg1.src}
-                        className="pointer-events-none"
+                        className="mx-auto w-11/12 xs:w-3/4 md:w-7/12 2xl:w-auto pointer-events-none"
                         width={550}
                         height={364}
                         loading="lazy"
@@ -46,7 +46,7 @@ export default function HomeChart() {
                     </div>
                     <Image
                         src={ChartImg2.src}
-                        className="pointer-events-none"
+                        className="mx-auto w-11/12 xs:w-3/4 md:w-7/12 2xl:w-auto pointer-events-none"
                         width={550}
                         height={364}
                         loading="lazy"
@@ -62,7 +62,7 @@ export default function HomeChart() {
                 >
                     <Image
                         src={ChartImg3.src}
-                        className="pointer-events-none"
+                        className="mx-auto w-11/12 xs:w-3/4 md:w-7/12 2xl:w-auto pointer-events-none"
                         width={550}
                         height={364}
                         loading="lazy"

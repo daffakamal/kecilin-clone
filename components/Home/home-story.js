@@ -4,7 +4,7 @@ export default function HomeStory() {
         <div className="w-full h-full bg-white">
             <div className="w-full grid px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 pt-5">
                 <div 
-                    className="grid xs:flex items-center justify-center"
+                    className="grid md:flex items-center justify-center"
                     data-aos="fade-up" 
                     data-aos-easing="ease"
                     data-aos-duration="400"
@@ -18,7 +18,7 @@ export default function HomeStory() {
                             Now in 2022, we are GO-TO-Market ready with many enterprise level solution center arround our proprietary compression algorithm.
                         </p>
                     </div>
-                    <div className="grid content-center m-auto w-full pt-6 xs:pt-0">
+                    <div className="grid content-center m-auto w-full pt-6 md:pt-0">
                         <iframe
                             className="w-full h-auto aspect-video -translate-x-2 z-40"
                             src="https://www.youtube.com/embed/fSBPHITgoGw?autoplay=1"
