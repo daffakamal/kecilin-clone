@@ -6,7 +6,7 @@ import SavingStrorageIcon from "../../assets/Images/Home/icon-milestone3.svg";
 
 export default function Milestone() {
     return (
-        <div className="w-full h-full bg-gray-100">
+        <div className="w-full h-full bg-[#f9fafb]">
             <div className="w-full px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 py-[110px] 2xl:container 2xl:mx-auto">
                 <div className="grid justify-items-start px-5 py-10">
                     <div 
