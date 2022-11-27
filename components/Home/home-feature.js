@@ -46,7 +46,7 @@ export default function HomeFeature() {
                     data-aos-duration="400"
                     data-aos-delay="0"
                 >
-                    <div className="grid pt-8 xs:pt-5 md:pt-0">
+                    <div className="grid pt-8 xs:pt-5 md:pt-0 pb-10 md:pb-0">
                         <h2 className="font-PoppinsSemi text-[28px] xs:text-[32px] xl:text-[32px] text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-900">
                             Kecilin Wants to Create an Equal Access to Digital Information
                         </h2>
