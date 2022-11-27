@@ -23,7 +23,7 @@ export default function HomeChart() {
                         loading="lazy"
                         alt="Chart"
                     />
-                    <p className="font-PoppinsRegular text-[16px] xs:text-[22px] text-[#383838] pt-8 xs:pt-12 md:translate-y-9">
+                    <p className="font-PoppinsRegular text-[16px] xs:text-[22px] text-[#383838] pt-8 xs:pt-12 md:pt-0 lg:pt-3 md:translate-y-9">
                         Almost 90% of enterprises are have already adopted digital transformation, including financial services (93%)
                     </p>
                 </div>
