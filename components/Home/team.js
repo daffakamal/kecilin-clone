@@ -7,12 +7,12 @@ export default function Team() {
     <div className="w-full h-full mx-auto bg-white">
       <div className="w-full mx-auto max-w-[1107px] py-[100px]">
         <div className="2xl:container 2xl:mx-auto text-center">
-          <h1 className="font-PoppinsSemi text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-900 text-[28px] xs:text-[32px]">
+          <h1 className="font-PoppinsSemi text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-900 text-[36px]">
             Our Team
           </h1>
-          <p className="font-PoppinsRegular text-[14px] text-[#494949] mb-[50px]">
-            Let's get to know Kecilin's Team that consist of experts in their
-            field.
+          <p className="font-PoppinsRegular text-[16px] text-[#494949] mt-[20px] mb-[50px]">
+            {"Let's"} get to know {"Kecilin's"} Team that consist of experts in
+            their field.
           </p>
           <div className="mx-auto grid grid-cols-2 lg:grid-cols-3 gap-x-[30px] gap-y-[150px] justify-items-center">
             {teamsList.map((item) => (
