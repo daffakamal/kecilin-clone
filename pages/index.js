@@ -8,6 +8,7 @@ import HomeStory from '../components/Home/home-story'
 import LandingPage from '../components/Home/landingpage'
 import Milestone from '../components/Home/milestone'
 import Problems from '../components/Home/problems'
+import Team from '../components/Home/team'
 import { Navbar } from '../components/Layout/navbar'
 
 export default function Home() {
@@ -30,6 +31,7 @@ export default function Home() {
       <Milestone />
       <CompressFile />
       <Problems />
+      <Team />
     </>
   )
 }
