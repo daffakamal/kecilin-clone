@@ -7,12 +7,7 @@ const teamsList = [
   {
     name: "Bisma Manda Samsu",
     img: "/images/Home/profil2.png",
-    position: [
-      {
-        main: "CCO & Co Founder Kecilin.id",
-        secondary: "Previously worked at Mandiri Capital Indonesia as SEVP Business Synergy",
-      },
-    ],
+    position: "CCO & Co Founder Kecilin.id",
   },
   {
     name: "Alexander Rusli",
@@ -36,4 +31,4 @@ const teamsList = [
   }
 ];
 
-export { sosmedList };
+export { teamsList };
