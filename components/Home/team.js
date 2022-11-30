@@ -18,7 +18,7 @@ export default function Team() {
             {teamsList.map((item) => (
               <div
                 key={item.name}
-                className="w-auto mx-auto rounded-[12px] bg-white px-[50px] text-center mt-[140px]"
+                className="w-full mx-auto rounded-[12px] bg-white px-[50px] text-center mt-[140px]"
                 style={{
                   boxShadow:
                     "0px 100px 80px rgb(0 0 0 / 7%), 0px 12.5216px 10.0172px rgb(0 0 0 / 5%)",
