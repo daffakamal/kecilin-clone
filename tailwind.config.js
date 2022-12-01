@@ -17,9 +17,15 @@ module.exports = {
         PoppinsMedium: ["PoppinsMedium"],
         PoppinsSemi: ["PoppinsSemi"],
         PoppinsBold: ["PoppinsBold"],
-        PoppinsSemiItalic: ["PoppinsSemiItalic"]
+        PoppinsSemiItalic: ["PoppinsSemiItalic"],
+      },
+      backgroundImage: {
+        "bottom-banner": "url('../assets/Images/Home/home-bottom-banner.png')",
+      },
+      dropShadow: {
+        "text-banner": "0 4px 4px rgb(0 0 0 / 40%)",
       },
     },
   },
   plugins: [],
-}
+};

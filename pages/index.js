@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import BottomBanner from '../components/Home/bottom-banner'
 import CompressFile from '../components/Home/compress-file'
 import HomeChart from '../components/Home/home-chart'
 import HomeComparison from '../components/Home/home-comparison'
@@ -32,6 +33,7 @@ export default function Home() {
       <CompressFile />
       <Problems />
       <Team />
+      <BottomBanner />
     </>
   )
 }
