@@ -1,5 +1,3 @@
-import Image from "next/image";
-import { lazy } from "react";
 import { teamsList } from "../data/dataTeams";
 
 export default function Team() {

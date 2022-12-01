@@ -4,6 +4,9 @@ import FileIcon from "../../assets/Images/Home/icon-milestone1.svg";
 import CloudIcon from "../../assets/Images/Home/icon-milestone2.svg";
 import SavingStrorageIcon from "../../assets/Images/Home/icon-milestone3.svg";
 
+const styleDescIcon =
+  "w-full sm:pl-2 xl:pl-4 2xl:pl-6 translate-x-20 xl:translate-x-16 font-PoppinsRegular text-[16px] sm:text-[18px] text-[#6D6D6D]";
+
 export default function Milestone() {
     return (
       <div className="w-full h-full bg-[#f9fafb]">
@@ -46,7 +49,7 @@ export default function Milestone() {
                 <div className="flex items-center gap-x-6">
                   <Image
                     src={FileIcon.src}
-                    className="w-14 sm:w-16 xl:w-auto pointer-events-none"
+                    className="w-14 sm:w-16 xl:w-14 2xl:w-16 pointer-events-none"
                     width={80}
                     height={80}
                     loading="lazy"
@@ -56,7 +59,7 @@ export default function Milestone() {
                     2.96 PB
                   </h1>
                 </div>
-                <p className="w-full sm:pl-2 translate-x-20 xl:translate-x-24 font-PoppinsRegular text-[16px]sm:text-[18px] text-[#6D6D6D]">
+                <p className={styleDescIcon}>
                   Inbound File Size
                 </p>
               </div>
@@ -64,7 +67,7 @@ export default function Milestone() {
                 <div className="flex items-center gap-x-6">
                   <Image
                     src={CloudIcon.src}
-                    className="w-14 sm:w-16 xl:w-auto pointer-events-none"
+                    className="w-14 sm:w-16 xl:w-14 2xl:w-16 pointer-events-none"
                     width={80}
                     height={80}
                     loading="lazy"
@@ -74,7 +77,7 @@ export default function Milestone() {
                     988.13 TB
                   </h1>
                 </div>
-                <p className="w-full sm:pl-2 translate-x-20 xl:translate-x-24 font-PoppinsRegular text-[16px]sm:text-[18px] text-[#6D6D6D]">
+                <p className={styleDescIcon}>
                   Outbound File Size
                 </p>
               </div>
@@ -82,7 +85,7 @@ export default function Milestone() {
                 <div className="flex items-center gap-x-6">
                   <Image
                     src={SavingStrorageIcon.src}
-                    className="w-14 sm:w-16 xl:w-auto  pointer-events-none"
+                    className="w-14 sm:w-16 xl:w-14 2xl:w-16 pointer-events-none"
                     width={80}
                     height={80}
                     loading="lazy"
@@ -92,7 +95,7 @@ export default function Milestone() {
                     67.41 %
                   </h1>
                 </div>
-                <p className="w-full sm:pl-2 translate-x-20 xl:translate-x-24 font-PoppinsRegular text-[16px]sm:text-[18px] text-[#6D6D6D]">
+                <p className={styleDescIcon}>
                   Saving Percentage
                 </p>
               </div>
