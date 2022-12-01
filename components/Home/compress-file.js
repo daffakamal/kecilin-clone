@@ -33,7 +33,7 @@ export default function CompressFile() {
                                 <span className="grid justify-items-center content-center space-y-10">
                                     <Image
                                         src={IconFile.src}
-                                        className="w-12 sm:w-auto pointer-events-none"
+                                        className="w-10 sm:w-12 lg:w-14 pointer-events-none"
                                         width={56}
                                         height={51}
                                         loading="lazy"
