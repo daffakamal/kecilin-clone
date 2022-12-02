@@ -10,7 +10,7 @@ import IconMail from "../../assets/Images/envelope.svg";
 export default function Footer() {
   return (
     <div className="w-full h-full mx-auto bg-white">
-      <div className="w-10/12 xl:w-3/4 mx-auto py-[80px]">
+      <div className="w-10/12 xl:w-3/4 mx-auto pt-[80px]">
         <div className="grid grid-cols-3 text-left gap-x-[30px] pb-[30px] border-b-[1px] border-[#B4B4B4] text-[#4A4A4A]">
           <div className="grid gap-y-[20px]">
             <Image
@@ -97,6 +97,20 @@ export default function Footer() {
               </p>
             </div>
           </div>
+        </div>
+        <div className="flex gap-x-8 pt-[30px] pb-[80px] font-PoppinsSemi text-[#4A4A4A] text-[9px] xs:text-[10px] md:text-[12px]">
+          <a
+            href="#!"
+            className="hover:underline hover:decoration-[#4A4A4A] cursor-pointer"
+          >
+            Terms & Conditions
+          </a>
+          <a
+            href="#!"
+            className="hover:underline hover:decoration-[#4A4A4A] cursor-pointer"
+          >
+            Privacy Statements
+          </a>
         </div>
       </div>
     </div>
