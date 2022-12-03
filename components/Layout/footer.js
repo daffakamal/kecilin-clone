@@ -113,6 +113,11 @@ export default function Footer() {
           </a>
         </div>
       </div>
+      <div className="bg-[#F2F2F2] grid justify-items-center py-[40px]">
+        <span className="font-PoppinsRegular text-[#4A4A4A] text-[12px] xs:text-[14px] md:text-[16px]">
+          @2022 Kecilin Systems, Inc.
+        </span>
+      </div>
     </div>
   );
 }
