@@ -4,7 +4,13 @@ export default function Team() {
   return (
     <div className="w-full h-full mx-auto bg-white">
       <div className="w-full mx-auto max-w-[1107px] py-[100px]">
-        <div className="2xl:container 2xl:mx-auto text-center">
+        <div
+          className="2xl:container 2xl:mx-auto text-center"
+          data-aos="fade-up"
+          data-aos-easing="ease"
+          data-aos-duration="400"
+          data-aos-delay="0"
+        >
           <h1 className="font-PoppinsSemi text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-900 text-[36px]">
             Our Team
           </h1>
@@ -12,7 +18,13 @@ export default function Team() {
             {"Let's"} get to know {"Kecilin's"} Team that consist of experts in
             their field.
           </p>
-          <div className="mx-auto grid grid-cols-2 lg:grid-cols-3 gap-x-[30px] gap-y-[150px] justify-items-center">
+          <div
+            className="mx-auto grid grid-cols-2 lg:grid-cols-3 gap-x-[30px] gap-y-[150px] justify-items-center"
+            data-aos="fade-up"
+            data-aos-easing="ease"
+            data-aos-duration="400"
+            data-aos-delay="0"
+          >
             {teamsList.map((item) => (
               <div
                 key={item.name}

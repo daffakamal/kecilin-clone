@@ -6,14 +6,14 @@ export default function Problems() {
   return (
     <div className="w-full h-full bg-[#f9fafb]">
       <div className="w-full px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 py-[110px] 3xl:py-0 3xl:pt-[110px] 2xl:container 2xl:mx-auto">
-        <div className="flex flex-col md:flex-row justify-between px-2 xl:px-5 pt-10">
-          <div
-            className="w-full"
-            data-aos="fade-up"
-            data-aos-easing="ease"
-            data-aos-duration="400"
-            data-aos-delay="0"
-          >
+        <div
+          className="flex flex-col md:flex-row justify-between px-2 xl:px-5 pt-10"
+          data-aos="fade-up"
+          data-aos-easing="ease"
+          data-aos-duration="400"
+          data-aos-delay="0"
+        >
+          <div className="w-full">
             <h1 className="w-full font-PoppinsSemi text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-900 text-[28px] xs:text-[32px] xl:text-[40px]">
               Problems such as slow transfer speeds?
             </h1>
