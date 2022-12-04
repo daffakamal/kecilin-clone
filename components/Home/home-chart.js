@@ -32,7 +32,7 @@ export default function HomeChart() {
                     data-aos="fade-up" 
                     data-aos-easing="ease"
                     data-aos-duration="400"
-                    data-aos-delay="0"
+                    data-aos-delay="100"
                 >
                     <div className="grid gap-y-12 pb-12 md:pb-0">
                         <p className="font-PoppinsRegular text-[16px] xs:text-[22px] text-[#383838] pt-8 xs:pt-12">
@@ -58,7 +58,7 @@ export default function HomeChart() {
                     data-aos="fade-up" 
                     data-aos-easing="ease"
                     data-aos-duration="400"
-                    data-aos-delay="0"
+                    data-aos-delay="100"
                 >
                     <Image
                         src={ChartImg3.src}
