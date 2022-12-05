@@ -5,9 +5,9 @@ import Maskot from "../../assets/Images/Home/maskot.png";
 export default function Problems() {
   return (
     <div className="w-full h-full bg-[#f9fafb]">
-      <div className="w-full px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 py-[110px] 3xl:py-0 3xl:pt-[110px] 2xl:container 2xl:mx-auto">
+      <div className="w-full px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 py-[50px] xs:py-[70px] md:py-[110px] 3xl:py-0 3xl:pt-[110px] 2xl:container 2xl:mx-auto">
         <div
-          className="flex flex-col md:flex-row justify-between px-2 xl:px-5 pt-10"
+          className="flex flex-col md:flex-row justify-between px-2 xl:px-5 2xl:pt-10"
           data-aos="fade-up"
           data-aos-easing="ease"
           data-aos-duration="400"
@@ -28,7 +28,7 @@ export default function Problems() {
           </div>
           <Image
             src={Maskot.src}
-            className="w-14 sm:w-1/2 md:w-[45%] xl:w-1/2 3xl:w-[40%] h-1/2 lg:h-auto my-auto pointer-events-none"
+            className="w-52 xs:w-72 sm:w-72 md:w-[45%] xl:w-1/2 3xl:w-[40%] h-1/2 lg:h-auto pt-4 pointer-events-none"
             width={400}
             height={460}
             loading="lazy"
