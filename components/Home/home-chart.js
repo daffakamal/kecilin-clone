@@ -41,7 +41,9 @@ export default function HomeChart() {
                 continuously growing up to 30% YoY.
               </p>
               <button className="font-PoppinsMedium uppercase px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-[14px] cursor-pointer w-fit">
-                <a href="#!">Compress now</a>
+                <a href="#compress-page">
+                  Compress now
+                </a>
               </button>
             </div>
             <Image

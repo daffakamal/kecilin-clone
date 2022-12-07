@@ -25,8 +25,8 @@ export default function LandingPage() {
                     This is how we save your business
                   </h2>
                   <button className="font-PoppinsMedium uppercase px-4 md:px-5 lg:px-6 py-2 lg:py-3 bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-[10px] md:text-[12px] lg:text-[14px] cursor-pointer">
-                    <a href="#!">
-                        Compress now
+                    <a href="#compress-page">
+                      Compress now
                     </a>
                   </button>
                 </div>
