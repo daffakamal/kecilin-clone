@@ -6,9 +6,9 @@ import FeatureImg2 from "../../assets/Images/Home/home-feature-2.png";
 export default function HomeFeature() {
     return (
       <div className="w-full h-full bg-white">
-        <div className="w-full grid px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 pb-20 md:pb-28 xl:pb-36">
+        <div className="w-full grid px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 pb-20 md:pb-28 xl:pb-28 3xl:pb-32">
           <div
-            className="grid md:flex items-center pt-28 md:pt-36 xl:pt-52 pb-14 sm:pb-20 md:pb-28 xl:pb-36 gap-x-3 xl:gap-x-6 3xl:gap-x-12"
+            className="grid md:flex items-center pt-28 md:pt-28 lg:pt-36 xl:pt-48 pb-14 sm:pb-20 md:pb-28 xl:pb-32 gap-x-3 xl:gap-x-6 3xl:gap-x-12"
             data-aos="fade-up"
             data-aos-easing="ease"
             data-aos-duration="400"
