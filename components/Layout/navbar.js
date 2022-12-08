@@ -97,7 +97,7 @@ function Navbar() {
                       </Menu.Items>
                     </Transition>
                   </Menu>
-                  <a className={styleTextNav} href="#!">
+                  <a className={styleTextNav} href="/About">
                     About Kecilin
                   </a>
                   <a className={styleTextNav} href="#!">
@@ -223,7 +223,7 @@ function Navbar() {
                 <a href="#!" className="flex items-center">
                   Product and Service
                 </a>
-                <a href="#!" className="flex self-center items-center">
+                <a href="/About" className="flex self-center items-center">
                   About Kecilin
                 </a>
                 <a href="#!" className="flex self-center items-center">
@@ -246,7 +246,7 @@ function Navbar() {
                 <a href="#!" className="flex items-center">
                   Product and Service
                 </a>
-                <a href="#!" className="flex self-auto items-center">
+                <a href="/About" className="flex self-auto items-center">
                   About Kecilin
                 </a>
                 <a href="#!" className="flex self-center items-center">
