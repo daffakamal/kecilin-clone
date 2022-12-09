@@ -188,7 +188,7 @@ function Navbar() {
           leaveFrom="opacity-100 scale-100"
           leaveTo="opacity-0 scale-95"
         >
-          <div className="block sm:hidden" id="mobile-menu">
+          <div className="block md:hidden" id="mobile-menu">
             <div className="w-full grid">
               <div className="grid justify-items-end pt-2 pb-3 space-y-5 font-PoppinsRegular text-right text-sm text-black py-2">
                 <a
@@ -197,19 +197,13 @@ function Navbar() {
                 >
                   Product and Service
                 </a>
-                <Link>
-                  <p
-                    href="/About"
-                    className="flex self-center items-center cursor-pointer hover:text-cyan-600"
-                  >
+                <Link href="/About">
+                  <p className="flex self-center items-center cursor-pointer hover:text-cyan-600">
                     About Kecilin
                   </p>
                 </Link>
-                <Link>
-                  <p
-                    href="/About"
-                    className="flex self-center items-center cursor-pointer hover:text-cyan-600"
-                  >
+                <Link href="#!">
+                  <p className="flex self-center items-center cursor-pointer hover:text-cyan-600">
                     Enterprise
                   </p>
                 </Link>
@@ -220,16 +214,16 @@ function Navbar() {
                   English
                 </a>
               </div>
-              <div className="flex lg:hidden justify-end py-3">
+              <div className="flex justify-end pt-1 pb-3">
                 <Link href="/#compress-page">
-                  <button className="font-PoppinsMedium uppercase px-6 py-3 text-white bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-xs cursor-pointer">
+                  <button className="font-PoppinsMedium uppercase px-4 py-2 bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-[11px] cursor-pointer">
                     Compress now
                   </button>
                 </Link>
               </div>
             </div>
           </div>
-          <div className="hidden sm:block lg:hidden" id="mobile-menu">
+          <div className="hidden md:block lg:hidden" id="mobile-menu">
             <div className="w-full grid content-center">
               <div className="flex items-center self-center gap-x-14 pl-9 pt-2 pb-3 space-y-5 font-PoppinsRegular text-sm text-black py-2">
                 <a
@@ -238,19 +232,13 @@ function Navbar() {
                 >
                   Product and Service
                 </a>
-                <Link>
-                  <p
-                    href="/About"
-                    className="flex self-center items-center cursor-pointer hover:text-cyan-600"
-                  >
+                <Link href="/About">
+                  <p className="flex self-center items-center cursor-pointer hover:text-cyan-600">
                     About Kecilin
                   </p>
                 </Link>
-                <Link>
-                  <p
-                    href="/About"
-                    className="flex self-center items-center cursor-pointer hover:text-cyan-600"
-                  >
+                <Link href="#!">
+                  <p className="flex self-center items-center cursor-pointer hover:text-cyan-600">
                     Enterprise
                   </p>
                 </Link>
@@ -261,9 +249,9 @@ function Navbar() {
                   English
                 </a>
               </div>
-              <div className="flex lg:hidden justify-end py-3">
+              <div className="flex justify-end py-3">
                 <Link href="/#compress-page">
-                  <button className="font-PoppinsMedium uppercase px-6 py-3 text-white bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-xs cursor-pointer">
+                  <button className="font-PoppinsMedium uppercase px-5 py-2 bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-[12px] cursor-pointer">
                     Compress now
                   </button>
                 </Link>
