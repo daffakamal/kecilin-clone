@@ -9,7 +9,18 @@ import KecilinLogo from "../../assets/Images/kecilin-logo.svg";
 
 function Navbar() {
 	const [isOpen, setIsOpen] = useState(false);
-    const styleTextNav="font-PoppinsRegular lg:text-sm xl:text-sm cursor-pointer text-black hover:text-cyan-600 px-3 py-2"
+  const styleTextNav="font-PoppinsRegular lg:text-sm xl:text-sm cursor-pointer text-black hover:text-cyan-600 px-3 py-2"
+  
+  const linksProduct = [
+    { href: "#!", title: "Kecilin VPN" },
+    { href: "#!", title: "Kecilin Kloud" },
+    { href: "#!", title: "Kecilin CCTV" },
+  ];
+
+  const linksLanguage = [
+    { href: "#!", title: "Indonesia" },
+    { href: "#!", title: "English" },
+  ];
 	
 	return (
     <div>
@@ -48,51 +59,22 @@ function Navbar() {
                     >
                       <Menu.Items className="absolute left-5 mt-2 w-40 font-PoppinsRegular origin-top-right rounded bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-40">
                         <div className="px-1 py-3">
-                          <Menu.Item>
-                            {({ active }) => (
-                              <Link href="#!">
-                                <button
+                          {linksProduct.map((link) => (
+                            <Menu.Item>
+                              {({ active }) => (
+                                <a
+                                  href={link.href}
                                   className={`${
                                     active
-                                      ? "bg-gray-100 text-black lg:text-sm xl:text-sm"
-                                      : "bg-white text-gray-900 lg:text-sm xl:text-sm"
+                                      ? "bg-gray-100 text-black text-sm"
+                                      : "text-black text-sm xl:text-sm"
                                   } group flex w-full items-center rounded-md px-4 py-2`}
                                 >
-                                  Kecilin VPN
-                                </button>
-                              </Link>
-                            )}
-                          </Menu.Item>
-                          <Menu.Item>
-                            {({ active }) => (
-                              <Link href="#!">
-                                <button
-                                  className={`${
-                                    active
-                                      ? "bg-gray-100 text-black lg:text-sm xl:text-sm"
-                                      : "bg-white text-gray-900 lg:text-sm xl:text-sm"
-                                  } group flex w-full items-center rounded-md px-4 py-2`}
-                                >
-                                  Kecilin Kloud
-                                </button>
-                              </Link>
-                            )}
-                          </Menu.Item>
-                          <Menu.Item>
-                            {({ active }) => (
-                              <Link href="#!">
-                                <button
-                                  className={`${
-                                    active
-                                      ? "bg-gray-100 text-black lg:text-sm xl:text-sm"
-                                      : "bg-white text-gray-900 lg:text-sm xl:text-sm"
-                                  } group flex w-full items-center rounded-md px-4 py-2`}
-                                >
-                                  Kecilin CCTV
-                                </button>
-                              </Link>
-                            )}
-                          </Menu.Item>
+                                  {link.title}
+                                </a>
+                              )}
+                            </Menu.Item>
+                          ))}
                         </div>
                       </Menu.Items>
                     </Transition>
@@ -121,36 +103,22 @@ function Navbar() {
                     >
                       <Menu.Items className="absolute left-5 mt-2 w-40 font-PoppinsRegular origin-top-right rounded bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-40">
                         <div className="px-1 py-3">
-                          <Menu.Item>
-                            {({ active }) => (
-                              <Link href="#!">
-                                <button
+                          {linksLanguage.map((link) => (
+                            <Menu.Item>
+                              {({ active }) => (
+                                <a
+                                  href={link.href}
                                   className={`${
                                     active
-                                      ? "bg-gray-100 text-black lg:text-sm xl:text-sm"
-                                      : "bg-white text-gray-900 lg:text-sm xl:text-sm"
+                                      ? "bg-gray-100 text-black text-sm"
+                                      : "text-gray-900 text-sm"
                                   } group flex w-full items-center rounded-md px-4 py-2`}
                                 >
-                                  Indonesia
-                                </button>
-                              </Link>
-                            )}
-                          </Menu.Item>
-                          <Menu.Item>
-                            {({ active }) => (
-                              <Link href="#!">
-                                <button
-                                  className={`${
-                                    active
-                                      ? "bg-gray-100 text-black lg:text-sm xl:text-sm"
-                                      : "bg-white text-gray-900 lg:text-sm xl:text-sm"
-                                  } group flex w-full items-center rounded-md px-4 py-2`}
-                                >
-                                  English
-                                </button>
-                              </Link>
-                            )}
-                          </Menu.Item>
+                                  {link.title}
+                                </a>
+                              )}
+                            </Menu.Item>
+                          ))}
                         </div>
                       </Menu.Items>
                     </Transition>
@@ -160,7 +128,7 @@ function Navbar() {
             </div>
             <div className="hidden lg:flex min-w-fit justify-center items-center">
               <button className="font-PoppinsMedium uppercase px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-xs cursor-pointer">
-                <a href="#compress-page">Compress now</a>
+                <a href="/#compress-page">Compress now</a>
               </button>
             </div>
             <div className="flex lg:hidden">
@@ -219,46 +187,70 @@ function Navbar() {
         >
           <div className="block sm:hidden" id="mobile-menu">
             <div className="w-full grid">
-              <div className="grid justify-items-end pt-2 pb-3 space-y-5 font-PoppinsRegular text-right text-sm cursor-pointer text-black hover:text-cyan-600 py-2">
-                <a href="#!" className="flex items-center">
+              <div className="grid justify-items-end pt-2 pb-3 space-y-5 font-PoppinsRegular text-right text-sm text-black py-2">
+                <a
+                  href="#!"
+                  className="flex items-center cursor-pointer hover:text-cyan-600"
+                >
                   Product and Service
                 </a>
-                <a href="/About" className="flex self-center items-center">
+                <a
+                  href="/About"
+                  className="flex self-center items-center cursor-pointer hover:text-cyan-600"
+                >
                   About Kecilin
                 </a>
-                <a href="#!" className="flex self-center items-center">
+                <a
+                  href="#!"
+                  className="flex self-center items-center cursor-pointer hover:text-cyan-600"
+                >
                   Enterprise
                 </a>
-                <a href="#!" className="flex self-center items-center">
+                <a
+                  href="#!"
+                  className="flex self-center items-center cursor-pointer hover:text-cyan-600"
+                >
                   English
                 </a>
               </div>
               <div className="flex lg:hidden justify-end py-3">
                 <button className="font-PoppinsMedium uppercase px-6 py-3 text-white bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-xs cursor-pointer">
-                  <a href="#compress-page">Compress now</a>
+                  <a href="/#compress-page">Compress now</a>
                 </button>
               </div>
             </div>
           </div>
           <div className="hidden sm:block lg:hidden" id="mobile-menu">
             <div className="w-full grid content-center">
-              <div className="flex items-center self-center gap-x-14 pl-9 pt-2 pb-3 space-y-5 font-PoppinsRegular text-sm cursor-pointer text-black hover:text-cyan-600 py-2">
-                <a href="#!" className="flex items-center">
+              <div className="flex items-center self-center gap-x-14 pl-9 pt-2 pb-3 space-y-5 font-PoppinsRegular text-sm text-black py-2">
+                <a
+                  href="#!"
+                  className="flex items-center cursor-pointer hover:text-cyan-600"
+                >
                   Product and Service
                 </a>
-                <a href="/About" className="flex self-auto items-center">
+                <a
+                  href="/About"
+                  className="flex self-auto items-center cursor-pointer hover:text-cyan-600"
+                >
                   About Kecilin
                 </a>
-                <a href="#!" className="flex self-center items-center">
+                <a
+                  href="#!"
+                  className="flex self-center items-center cursor-pointer hover:text-cyan-600"
+                >
                   Enterprise
                 </a>
-                <a href="#!" className="flex self-center items-center">
+                <a
+                  href="#!"
+                  className="flex self-center items-center cursor-pointer hover:text-cyan-600"
+                >
                   English
                 </a>
               </div>
               <div className="flex lg:hidden justify-end py-3">
                 <button className="font-PoppinsMedium uppercase px-6 py-3 text-white bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-xs cursor-pointer">
-                  <a href="#compress-page">Compress now</a>
+                  <a href="/#compress-page">Compress now</a>
                 </button>
               </div>
             </div>
