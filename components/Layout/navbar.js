@@ -12,14 +12,14 @@ function Navbar() {
   const styleTextNav="font-PoppinsRegular lg:text-sm xl:text-sm cursor-pointer text-black hover:text-cyan-600 px-3 py-2"
   
   const linksProduct = [
-    { href: "#!", title: "Kecilin VPN" },
-    { href: "#!", title: "Kecilin Kloud" },
-    { href: "#!", title: "Kecilin CCTV" },
+    { id: "1", href: "#!", title: "Kecilin VPN" },
+    { id: "2", href: "#!", title: "Kecilin Kloud" },
+    { id: "3", href: "#!", title: "Kecilin CCTV" },
   ];
 
   const linksLanguage = [
-    { href: "#!", title: "Indonesia" },
-    { href: "#!", title: "English" },
+    { id: "1", href: "#!", title: "Indonesia" },
+    { id: "2", href: "#!", title: "English" },
   ];
 	
 	return (
@@ -61,7 +61,7 @@ function Navbar() {
                       <Menu.Items className="absolute left-5 mt-2 w-40 font-PoppinsRegular origin-top-right rounded bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-40">
                         <div className="px-1 py-3">
                           {linksProduct.map((link) => (
-                            <Menu.Item>
+                            <Menu.Item key={link.id}>
                               {({ active }) => (
                                 <a
                                   href={link.href}
@@ -80,12 +80,12 @@ function Navbar() {
                       </Menu.Items>
                     </Transition>
                   </Menu>
-                  <a className={styleTextNav} href="/About">
-                    About Kecilin
-                  </a>
-                  <a className={styleTextNav} href="#!">
-                    Enterprise
-                  </a>
+                  <Link href="/About">
+                    <p className={styleTextNav}>About Kecilin</p>
+                  </Link>
+                  <Link href="#!">
+                    <p className={styleTextNav}>Enterprise</p>
+                  </Link>
                   <Menu as="div" className="relative inline-block text-left">
                     <div className="flex items-center text-black hover:text-cyan-600">
                       <Menu.Button className={styleTextNav}>
@@ -105,7 +105,7 @@ function Navbar() {
                       <Menu.Items className="absolute left-5 mt-2 w-40 font-PoppinsRegular origin-top-right rounded bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-40">
                         <div className="px-1 py-3">
                           {linksLanguage.map((link) => (
-                            <Menu.Item>
+                            <Menu.Item key={link.id}>
                               {({ active }) => (
                                 <a
                                   href={link.href}
@@ -195,18 +195,22 @@ function Navbar() {
                 >
                   Product and Service
                 </a>
-                <a
-                  href="/About"
-                  className="flex self-center items-center cursor-pointer hover:text-cyan-600"
-                >
-                  About Kecilin
-                </a>
-                <a
-                  href="#!"
-                  className="flex self-center items-center cursor-pointer hover:text-cyan-600"
-                >
-                  Enterprise
-                </a>
+                <Link>
+                  <p
+                    href="/About"
+                    className="flex self-center items-center cursor-pointer hover:text-cyan-600"
+                  >
+                    About Kecilin
+                  </p>
+                </Link>
+                <Link>
+                  <p
+                    href="/About"
+                    className="flex self-center items-center cursor-pointer hover:text-cyan-600"
+                  >
+                    Enterprise
+                  </p>
+                </Link>
                 <a
                   href="#!"
                   className="flex self-center items-center cursor-pointer hover:text-cyan-600"
@@ -230,18 +234,22 @@ function Navbar() {
                 >
                   Product and Service
                 </a>
-                <a
-                  href="/About"
-                  className="flex self-auto items-center cursor-pointer hover:text-cyan-600"
-                >
-                  About Kecilin
-                </a>
-                <a
-                  href="#!"
-                  className="flex self-center items-center cursor-pointer hover:text-cyan-600"
-                >
-                  Enterprise
-                </a>
+                <Link>
+                  <p
+                    href="/About"
+                    className="flex self-center items-center cursor-pointer hover:text-cyan-600"
+                  >
+                    About Kecilin
+                  </p>
+                </Link>
+                <Link>
+                  <p
+                    href="/About"
+                    className="flex self-center items-center cursor-pointer hover:text-cyan-600"
+                  >
+                    Enterprise
+                  </p>
+                </Link>
                 <a
                   href="#!"
                   className="flex self-center items-center cursor-pointer hover:text-cyan-600"

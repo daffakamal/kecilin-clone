@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { teamsList } from "../data/dataTeams";
 
 export default function Team() {
@@ -34,9 +35,11 @@ export default function Team() {
                     "0px 100px 80px rgb(0 0 0 / 7%), 0px 12.5216px 10.0172px rgb(0 0 0 / 5%)",
                 }}
               >
-                <img
+                <Image
                   src={item.img}
                   className="w-[140px] lg:w-[170px] mx-auto -translate-y-1/2"
+                  width={170}
+                  height={170}
                   alt={item.title}
                   loading="lazy"
                 />
