@@ -128,9 +128,11 @@ function Navbar() {
               </div>
             </div>
             <div className="hidden lg:flex min-w-fit justify-center items-center">
-              <button className="font-PoppinsMedium uppercase px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-xs cursor-pointer">
-                <a href="/#compress-page">Compress now</a>
-              </button>
+              <Link href="/#compress-page">
+                <button className="font-PoppinsMedium uppercase px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-xs cursor-pointer">
+                  Compress now
+                </button>
+              </Link>
             </div>
             <div className="flex lg:hidden">
               <button
@@ -219,9 +221,11 @@ function Navbar() {
                 </a>
               </div>
               <div className="flex lg:hidden justify-end py-3">
-                <button className="font-PoppinsMedium uppercase px-6 py-3 text-white bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-xs cursor-pointer">
-                  <a href="/#compress-page">Compress now</a>
-                </button>
+                <Link href="/#compress-page">
+                  <button className="font-PoppinsMedium uppercase px-6 py-3 text-white bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-xs cursor-pointer">
+                    Compress now
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -258,9 +262,11 @@ function Navbar() {
                 </a>
               </div>
               <div className="flex lg:hidden justify-end py-3">
-                <button className="font-PoppinsMedium uppercase px-6 py-3 text-white bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-xs cursor-pointer">
-                  <a href="/#compress-page">Compress now</a>
-                </button>
+                <Link href="/#compress-page">
+                  <button className="font-PoppinsMedium uppercase px-6 py-3 text-white bg-gradient-to-r from-cyan-600 to-blue-900 rounded-full text-xs cursor-pointer">
+                    Compress now
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
