@@ -1,4 +1,5 @@
 import Head from "next/head";
+import API from "../../components/Enterprise/API";
 import Title from "../../components/Enterprise/title";
 import Footer from "../../components/Layout/footer";
 import { Navbar } from "../../components/Layout/navbar";
@@ -21,6 +22,7 @@ export default function Home() {
       </Head>
       <Navbar />
       <Title />
+      <API />
       <Footer />
     </>
   );
