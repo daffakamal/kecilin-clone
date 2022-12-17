@@ -83,7 +83,7 @@ function Navbar() {
                   <Link href="/About">
                     <p className={styleTextNav}>About Kecilin</p>
                   </Link>
-                  <Link href="#!">
+                  <Link href="/Enterprise">
                     <p className={styleTextNav}>Enterprise</p>
                   </Link>
                   <Menu as="div" className="relative inline-block text-left">
@@ -202,7 +202,7 @@ function Navbar() {
                     About Kecilin
                   </p>
                 </Link>
-                <Link href="#!">
+                <Link href="/Enterprise">
                   <p className="flex self-center items-center cursor-pointer hover:text-cyan-600">
                     Enterprise
                   </p>
@@ -237,7 +237,7 @@ function Navbar() {
                     About Kecilin
                   </p>
                 </Link>
-                <Link href="#!">
+                <Link href="/Enterprise">
                   <p className="flex self-center items-center cursor-pointer hover:text-cyan-600">
                     Enterprise
                   </p>
