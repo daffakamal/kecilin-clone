@@ -6,7 +6,7 @@ import { enterpriseList } from "../data/dataEnterprise";
 
 export default function Title() {
   return (
-    <div className="w-full h-full bg-[#e8f5fc] px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 py-12 sm:py-20 lg:py-24 xl:py-32">
+    <div className="w-full h-full bg-white px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 py-12 sm:py-20 lg:py-24 xl:py-32">
       <div className="w-full lg:flex items-center gap-x-[4rem]">
         <Image
           src={TitleImg.src}
