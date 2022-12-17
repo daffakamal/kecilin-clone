@@ -24,7 +24,7 @@ function Navbar() {
 	
 	return (
     <div>
-      <nav className="w-full bg-white lg:pt-1 lg:pb-1 px-7 sm:px-16 lg:px-28 xl:px-52 2xl:px-80 z-50">
+      <nav className="w-full bg-white drop-shadow-xl lg:pt-1 lg:pb-1 px-7 sm:px-16 lg:px-28 xl:px-52 2xl:px-80 z-50">
         <div className="w-full xl:container xl:mx-auto">
           <div className="w-full flex items-center h-12 md:h-14 xl:h-20">
             <div className="w-full flex items-center justify-between lg:justify-start gap-x-14">
