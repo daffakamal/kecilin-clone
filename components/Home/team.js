@@ -28,7 +28,7 @@ export default function Team() {
           >
             {teamsList.map((item) => (
               <div
-                key={item.name}
+                key={item.id}
                 className="w-full mx-auto rounded-[12px] bg-white px-[30px] 2xl:px-[50px] text-center mt-[140px]"
                 style={{
                   boxShadow:
