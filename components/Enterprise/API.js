@@ -10,7 +10,7 @@ export default function API() {
       <div className="w-full lg:flex items-center gap-x-[4rem]">
         <Image
           src={APIImg.src}
-          className="mx-auto xs:w-[340px] sm:w-[370px] md:w-[400px] lg:w-[330px] xl:w-[430px] 3xl:w-auto pb-8 pointer-events-none"
+          className="mx-auto w-[300px] xs:w-[320px] sm:w-[330px] md:w-[370px] lg:w-[330px] xl:w-[430px] 3xl:w-auto pb-8 pointer-events-none"
           width={543}
           height={543}
           loading="lazy"
@@ -32,7 +32,7 @@ export default function API() {
                 <div className="flex items-center gap-x-3">
                   <Image
                     src={ChecklistImg.src}
-                    className="my-auto"
+                    className="my-auto pointer-events-none"
                     width={32}
                     height={32}
                     alt="Checklist"
