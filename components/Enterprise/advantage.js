@@ -74,7 +74,7 @@ export default function Advantage() {
             <h1 className="font-PoppinsSemi text-[26px] sm:text-[28px] lg:text-[32px] xl:text-[36px] text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-900">
               Expensive fees for transfer speed and storage
             </h1>
-            <p className="font-PoppinsRegular text-[18px] text-[#494949] pb-9">
+            <p className="font-PoppinsRegular text-center text-[18px] text-[#494949] pb-9">
               By using compression from Kecilin, the costs required for transfer
               speed and storage will be reduced by 90%
             </p>
