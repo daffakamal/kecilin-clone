@@ -2,6 +2,7 @@ import Head from "next/head";
 import Advantage from "../../components/Enterprise/advantage";
 import API from "../../components/Enterprise/API";
 import CCTV from "../../components/Enterprise/cctv";
+import IPTV from "../../components/Enterprise/iptv";
 import Title from "../../components/Enterprise/title";
 import Footer from "../../components/Layout/footer";
 import { Navbar } from "../../components/Layout/navbar";
@@ -27,6 +28,7 @@ export default function Home() {
       <API />
       <Advantage />
       <CCTV />
+      <IPTV />
       <Footer />
     </>
   );
