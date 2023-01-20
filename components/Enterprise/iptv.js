@@ -20,7 +20,7 @@ export default function IPTV() {
             </p>
           </div>
           <div className="grid md:flex gap-y-12 md:gap-y-0 gap-x-20 lg:gap-x-6">
-            <div className="w-full grid max-w sm:max-w-[360px] lg:max-w-[250px] xl:max-w-[290px]">
+            <div className="w-full grid sm:max-w-[360px] lg:max-w-[250px] xl:max-w-[290px]">
               <Image
                 src={IPTVImplement1.src}
                 className="mx-auto w-full pointer-events-none"
@@ -36,7 +36,7 @@ export default function IPTV() {
                 </h1>
               </div>
             </div>
-            <div className="w-full grid max-w-[280px] sm:max-w-[360px] lg:max-w-[250px] xl:max-w-[290px]">
+            <div className="w-full grid sm:max-w-[360px] lg:max-w-[250px] xl:max-w-[290px]">
               <Image
                 src={IPTVImplement2.src}
                 className="mx-auto w-full pointer-events-none"
