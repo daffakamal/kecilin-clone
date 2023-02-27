@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import IconKecilinSmall from "../../assets/Images/Home/ic-kecilin-span.svg";
 
 export default function BottomBanner() {

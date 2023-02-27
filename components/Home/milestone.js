@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import FileIcon from "../../assets/Images/Home/icon-milestone1.svg";
 import CloudIcon from "../../assets/Images/Home/icon-milestone2.svg";
 import SavingStrorageIcon from "../../assets/Images/Home/icon-milestone3.svg";

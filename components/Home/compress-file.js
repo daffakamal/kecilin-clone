@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import IconFile from "../../assets/Images/Home/icon-file.svg";
 
 export default function CompressFile() {

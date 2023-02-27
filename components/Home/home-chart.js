@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import ChartImg1 from "../../assets/Images/Home/home-chart-1.png";
 import ChartImg2 from "../../assets/Images/Home/home-chart-2.png";
 import ChartImg3 from "../../assets/Images/Home/home-chart-3.png";

@@ -1,4 +1,3 @@
-
 export default function HomeStory() {
     return (
       <div className="w-full h-full bg-white">

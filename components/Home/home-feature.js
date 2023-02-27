@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import FeatureImg1 from "../../assets/Images/Home/home-feature-1.png";
 import FeatureImg2 from "../../assets/Images/Home/home-feature-2.png";
 

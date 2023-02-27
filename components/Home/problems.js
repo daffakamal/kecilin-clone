@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import Maskot from "../../assets/Images/Home/maskot.png";
 
 export default function Problems() {

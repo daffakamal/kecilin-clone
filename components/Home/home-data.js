@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import IconData1 from "../../assets/Images/Home/icon-home-data-1.svg";
 import IconData2 from "../../assets/Images/Home/icon-home-data-2.svg";
 
