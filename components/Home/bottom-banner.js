@@ -11,8 +11,7 @@ export default function BottomBanner() {
           data-aos="fade-up"
           data-aos-easing="ease"
           data-aos-duration="400"
-          data-aos-delay="0"
-        >
+          data-aos-delay="0">
           Ma
           <Image
             src={IconKecilinSmall.src}
@@ -29,8 +28,7 @@ export default function BottomBanner() {
           data-aos="fade-up"
           data-aos-easing="ease"
           data-aos-duration="400"
-          data-aos-delay="100"
-        >
+          data-aos-delay="100">
           An inclusive future means protecting the planet we share
         </h4>
         <p
@@ -38,8 +36,7 @@ export default function BottomBanner() {
           data-aos="fade-up"
           data-aos-easing="ease"
           data-aos-duration="400"
-          data-aos-delay="100"
-        >
+          data-aos-delay="100">
           We believe that in every business, digital data plays an essential
           role in our money-making. Drowned with text-based files, images,
           video, streaming services, and documents every single minute of our

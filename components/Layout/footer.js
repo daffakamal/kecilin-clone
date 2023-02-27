@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-
 import KecilinLogo from "../../assets/Images/kecilin-logo.svg";
 import IconLinkedIn from "../../assets/Images/icon-linkedin.svg";
 import IconInstagram from "../../assets/Images/icon-instagram.svg";
@@ -95,14 +94,12 @@ export default function Footer() {
         <div className="flex gap-x-8 pt-[30px] pb-[80px] font-PoppinsSemi text-[#4A4A4A] text-[12px]">
           <a
             href="#!"
-            className="hover:underline hover:decoration-[#4A4A4A] cursor-pointer"
-          >
+            className="hover:underline hover:decoration-[#4A4A4A] cursor-pointer">
             Terms & Conditions
           </a>
           <a
             href="#!"
-            className="hover:underline hover:decoration-[#4A4A4A] cursor-pointer"
-          >
+            className="hover:underline hover:decoration-[#4A4A4A] cursor-pointer">
             Privacy Statements
           </a>
         </div>

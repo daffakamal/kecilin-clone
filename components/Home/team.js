@@ -4,14 +4,13 @@ import { teamsList } from "../data/dataTeams";
 export default function Team() {
   return (
     <div className="w-full h-full bg-white">
-      <div className="w-full mx-auto px-[24px] sm:px-16 2xl:px-0 max-w-[1107px] py-[100px]">
+      <div className="w-full mx-auto px-[24px] sm:px-16 py-[100px]">
         <div
-          className="2xl:container 2xl:mx-auto text-center"
+          className="large:max-w-[1100px] mx-auto text-center"
           data-aos="fade-up"
           data-aos-easing="ease"
           data-aos-duration="400"
-          data-aos-delay="0"
-        >
+          data-aos-delay="0">
           <h1 className="font-PoppinsSemi text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-900 text-[36px]">
             Our Team
           </h1>
@@ -24,8 +23,7 @@ export default function Team() {
             data-aos="fade-up"
             data-aos-easing="ease"
             data-aos-duration="400"
-            data-aos-delay="0"
-          >
+            data-aos-delay="0">
             {teamsList.map((item) => (
               <div
                 key={item.id}
@@ -33,8 +31,7 @@ export default function Team() {
                 style={{
                   boxShadow:
                     "0px 100px 80px rgb(0 0 0 / 7%), 0px 12.5216px 10.0172px rgb(0 0 0 / 5%)",
-                }}
-              >
+                }}>
                 <Image
                   src={item.img}
                   className="w-[140px] lg:w-[170px] mx-auto -translate-y-1/2"

@@ -1,15 +1,14 @@
 export default function HomeComparison() {
   return (
     <div className="w-full h-full bg-white">
-      <div className="w-full px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 py-20 md:py-28 xl:py-28 3xl:py-32 3xl:container 3xl:mx-auto">
+      <div className="w-full px-[24px] sm:px-16 large:px-0 py-20 md:py-28 xl:py-28 3xl:py-32 mx-auto large:max-w-[1100px]">
         <div className="rounded bg-[#dcf1fc] px-5 sm:px-8 md:px-6 py-6 sm:py-8 md:py-7 lg:py-10">
           <div className="grid md:flex justify-items-center gap-x-6">
             <video
               autoplay
               loop
               muted
-              className="w-full md:w-7/12 lg:w-8/12 2xl:w-[610px] 3xl:w-[680px]"
-            >
+              className="w-full md:w-7/12 lg:w-8/12 2xl:w-[610px] 3xl:w-[680px]">
               <source
                 src="https://kecilin.id/assts/video/example-compress.mp4"
                 type="video/mp4"
