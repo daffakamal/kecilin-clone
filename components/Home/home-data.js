@@ -4,7 +4,7 @@ import IconData2 from "../../assets/Images/Home/icon-home-data-2.svg";
 
 export default function HomeData() {
     return (
-      <div className="w-full bg-[#dcf1fc] py-[55px]">
+      <div className="w-full bg-[#EAF7FE] py-[55px]">
         <div className="w-full px-[24px] sm:px-16">
           <div className="grid justify-items-center lg:flex lg:justify-between large:max-w-[1000px] mx-auto">
             <h1 className="text-center font-PoppinsSemi text-[40px] text-[#373737] mb-8 lg:max-w-[300px]">
