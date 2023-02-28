@@ -5,8 +5,8 @@ import Arrow from "../../assets/Images/Enterprise/arrow.svg";
 
 export default function CCTV() {
   return (
-    <div className="w-full h-full bg-white px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-48 py-12 sm:py-20 lg:py-24 xl:py-32 gap-y-[6rem]">
-      <div className="mx-auto container">
+    <div className="w-full h-full bg-white px-[24px] sm:px-16 py-12 sm:py-20 lg:py-24 xl:py-32 gap-y-[6rem]">
+      <div className="mx-auto large:max-w-[1100px]">
         <h1 className="font-PoppinsSemi text-center text-[26px] sm:text-[28px] lg:text-[32px] xl:text-[32px] text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-900">
           The Implementation of {"Kecilin's"} Compression Technology
         </h1>

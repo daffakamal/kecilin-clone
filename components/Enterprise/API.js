@@ -6,8 +6,8 @@ import { APIdescriptionList } from "../data/dataEnterprise";
 
 export default function API() {
   return (
-    <div className="w-full h-full bg-[#dcf1fc] px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 py-12 sm:py-20 lg:py-24 xl:py-32">
-      <div className="w-full lg:flex items-center gap-x-[4rem]">
+    <div className="w-full h-full bg-[#dcf1fc] px-[24px] sm:px-16 py-12 sm:py-20 lg:py-24 xl:py-32">
+      <div className="mx-auto large:max-w-[1100px] lg:flex items-center gap-x-[4rem]">
         <Image
           src={APIImg.src}
           className="mx-auto w-[300px] xs:w-[320px] sm:w-[330px] md:w-[370px] lg:w-[330px] xl:w-[430px] 3xl:w-auto pb-8 pointer-events-none"

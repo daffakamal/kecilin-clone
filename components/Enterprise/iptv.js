@@ -4,8 +4,8 @@ import IPTVImplement2 from "../../assets/Images/Enterprise/iptv-implement-2.png"
 
 export default function IPTV() {
   return (
-    <div className="w-full h-full bg-[#EAF7FE] px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 py-12 sm:py-20 lg:py-24 xl:py-32 gap-y-[6rem]">
-      <div className="mx-auto container">
+    <div className="w-full h-full bg-[#EAF7FE] px-[24px] sm:px-16 py-12 sm:py-20 lg:py-24 xl:py-32 gap-y-[6rem]">
+      <div className="mx-auto large:max-w-[1100px]">
         <h1 className="font-PoppinsSemi text-center text-[26px] sm:text-[28px] lg:text-[32px] text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-900">
           The Implementation of {"Kecilin's"} Compression Technology
         </h1>

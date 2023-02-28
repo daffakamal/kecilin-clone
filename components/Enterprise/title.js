@@ -6,11 +6,11 @@ import { enterpriseList } from "../data/dataEnterprise";
 
 export default function Title() {
   return (
-    <div className="w-full h-full bg-white px-[24px] sm:px-16 lg:px-32 xl:px-52 2xl:px-80 py-12 sm:py-20 lg:py-24 xl:py-32">
-      <div className="w-full lg:flex items-center gap-x-[4rem]">
+    <div className="w-full h-full bg-white px-[24px] sm:px-16 pt-0 md:pt-16 pb-12 sm:pb-14 md:pb-16 g:py-24 xl:py-32">
+      <div className="mx-auto large:max-w-[1100px] md:flex items-center gap-x-10 lg:gap-x-[4rem]">
         <Image
           src={TitleImg.src}
-          className="mx-auto w-[300px] xs:w-[340px] sm:w-[370px] md:w-[400px] lg:w-[370px] xl:w-[450px] 3xl:w-auto pointer-events-none"
+          className="mx-auto w-[300px] xs:w-[340px] md:w-[300px] lg:w-[370px] xl:w-[450px] 3xl:w-auto pointer-events-none"
           width={554}
           height={554}
           loading="lazy"

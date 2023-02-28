@@ -23,13 +23,15 @@ export default function Home() {
         />
         <link rel="icon" href="/kecilin-logo.svg" />
       </Head>
-      <Navbar />
-      <Title />
-      <API />
-      <Advantage />
-      <CCTV />
-      <IPTV />
-      <Footer />
+      <div className="overflow-hidden">
+        <Navbar />
+        <Title />
+        <API />
+        <Advantage />
+        <CCTV />
+        <IPTV />
+        <Footer />
+      </div>
     </>
   );
 }
