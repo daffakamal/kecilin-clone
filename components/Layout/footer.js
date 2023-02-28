@@ -50,9 +50,8 @@ export default function Footer() {
             <p className="font-PoppinsBold text-[16px] md:text-[18px]">
               Jakarta Office
             </p>
-            <div className="font-PoppinsRegular text-[14px]">
+            <div className="font-PoppinsRegular text-[14px] gap-y-3 grid">
               <p>PT MILLENIO AMERTA DATA</p>
-              <br />
               <p>
                 Wisma Taranis, Jl. Bendungan Hilir Raya, No. 76, Kel. Bendungan
                 Hilir, Kec. Tanah Abang, Kota Jakarta Pusat, Prov. DKI Jakarta,
@@ -60,7 +59,7 @@ export default function Footer() {
               </p>
             </div>
           </div>
-          <div className="grid gap-y-[20px]">
+          <div className="grid gap-y-5 lg:gap-y-[20px]">
             <p className="font-PoppinsBold text-[16px] md:text-[18px]">
               Contact Us
             </p>
