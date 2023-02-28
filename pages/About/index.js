@@ -20,10 +20,12 @@ export default function Home() {
         />
         <link rel="icon" href="/kecilin-logo.svg" />
       </Head>
-      <Navbar />
-      <AboutTitle />
-      <Team />
-      <Footer />
+      <div className="overflow-hidden">
+        <Navbar />
+        <AboutTitle />
+        <Team />
+        <Footer />
+      </div>
     </>
   );
 }
