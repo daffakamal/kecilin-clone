@@ -1,5 +1,4 @@
 import Image from "next/image";
-
 import SlowTransferImg from "../../assets/Images/Enterprise/advantage-top.png";
 import FullStorageImg from "../../assets/Images/Enterprise/advantage-center.png";
 import FeesImg from "../../assets/Images/Enterprise/advantage-bottom.png";
@@ -24,7 +23,7 @@ export default function Advantage() {
           <div className="w-full md:flex items-center gap-x-10 lg:gap-x-[4rem]">
             <Image
               src={SlowTransferImg.src}
-              className="mx-auto w-[170px] xs:w-[200px] sm:w-[220px] md:w-[200px] lg:w-[250px] xl:w-[320px] 2xl:w-[310px] 3xl:w-auto pointer-events-none"
+              className="mx-auto w-[170px] xs:w-[200px] sm:w-[220px] md:w-[200px] lg:w-[250px] xl:w-[270px] 3xl:w-[240px] pointer-events-none"
               width={330}
               height={330}
               loading="lazy"
@@ -32,7 +31,7 @@ export default function Advantage() {
             />
             <Image
               src={TableTopImg.src}
-              className="mx-auto w-[250px] xs:w-[360px] sm:w-[430px] md:w-[370px] lg:w-[440px] xl:w-[490px] 3xl:w-auto drop-shadow-2xl pointer-events-none"
+              className="mx-auto w-[250px] xs:w-[360px] sm:w-[430px] md:w-[370px] lg:w-[440px] xl:w-[490px] 3xl:w- drop-shadow-2xl pointer-events-none"
               width={592}
               height={294}
               loading="lazy"
@@ -50,10 +49,10 @@ export default function Advantage() {
               by 99%
             </p>
           </div>
-          <div className="w-full md:flex items-center gap-x-10 lg:gap-x-[4rem] 3xl:-translate-y-24">
+          <div className="w-full md:flex items-center gap-x-10 lg:gap-x-[4rem]">
             <Image
               src={TableCenterImg.src}
-              className="mx-auto w-[250px] xs:w-[360px] sm:w-[430px] md:w-[370px] lg:w-[440px] xl:w-[490px]  drop-shadow-2xl pointer-events-none"
+              className="mx-auto w-[250px] xs:w-[360px] sm:w-[430px] md:w-[370px] lg:w-[440px] xl:w-[490px] drop-shadow-2xl pointer-events-none"
               width={592}
               height={294}
               loading="lazy"
@@ -61,7 +60,7 @@ export default function Advantage() {
             />
             <Image
               src={FullStorageImg.src}
-              className="mx-auto w-[170px] xs:w-[200px] sm:w-[250px] md:w-[270px] lg:w-[290px] xl:w-[320px] 2xl:w-[310px] 3xl:w-auto pointer-events-none"
+              className="mx-auto w-[170px] xs:w-[200px] sm:w-[250px] md:w-[270px] lg:w-[290px] xl:w-[320px] 2xl:w-[310px] pointer-events-none"
               width={469}
               height={469}
               loading="lazy"
@@ -69,7 +68,7 @@ export default function Advantage() {
             />
           </div>
         </div>
-        <div className="mx-auto pt-20 3xl:-mt-32">
+        <div className="mx-auto pt-20 3xl:pt-24">
           <div className="grid justify-items-center text-center gap-y-6">
             <h1 className="font-PoppinsSemi text-[26px] sm:text-[28px] lg:text-[32px] xl:text-[36px] text-transparent bg-clip-text bg-gradient-to-r from-cyan-600 to-blue-900">
               Expensive fees for transfer speed and storage
@@ -90,7 +89,7 @@ export default function Advantage() {
             />
             <Image
               src={TableBottomImg.src}
-              className="mx-auto w-[250px] xs:w-[360px] sm:w-[430px] md:w-[370px] lg:w-[440px] xl:w-[490px]  drop-shadow-2xl pointer-events-none"
+              className="mx-auto w-[250px] xs:w-[360px] sm:w-[430px] md:w-[370px] lg:w-[440px] xl:w-[490px] drop-shadow-2xl pointer-events-none"
               width={592}
               height={294}
               loading="lazy"
